@@ -1,0 +1,36 @@
+# app/config/schema.yml
+
+# The list of types and properties we want to use
+types:
+    # Parent class of Product and Intangible
+    Thing:
+        properties:
+            identifier: { range: 'Text' }
+            name: ~
+            image: ~
+            description: ~
+    Product:
+        properties:
+            category: { range: 'Text' }
+            brand: { range: 'Brand' }
+            color: ~
+            weight: ~
+            isRelatedTo: ~
+            offer:
+              range: 'Offer'
+              cardinality: '(0..1)'
+    # Parent class of Brand and StructuredValue
+    Intangible:
+        properties: []
+    Brand:
+        properties: []
+    # Parent class of QuantitativeValue
+    StructuredValue:
+        properties: []
+    QuantitativeValue:
+        properties:
+          unitText: ~
+          value: { range: 'Text' }
+    Offer:
+        properties:
+            price: { range: 'Number' }

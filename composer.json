@@ -1,0 +1,22 @@
+{
+    "name": "larriereguichet/boboforce3",
+    "description": "Organic grocery store in the bobo capital",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "require": {
+        "silex/silex": "^2.0",
+        "symfony/property-access": "^3.2",
+        "symfony/templating": "^3.2"
+    },
+    "require-dev": {
+        "api-platform/schema-generator": "^1.2"
+    },
+    "scripts": {
+        "run": [
+            "echo 'Started web server on http://localhost:8888'",
+            "php -S localhost:8888 -t web"
+        ]
+    }
+}

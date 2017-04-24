@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "identifier": "QUINO1",
+      "name": "Raw organic quinoa",
+      "description": "Quinoa is the common name for Chenopodium quinoa of the flowering plant family Amaranthaceae. It is grown as a grain crop primarily for its edible seeds. It is a pseudocereal rather than a true cereal, due to it not being a grass. Quinoa is closely related to the edible plants beetroot, spinach, and amaranth (Amaranthus spp.), another pseudocereal which it closely resembles..",
+      "image": "QUINO1.jpg",
+      "weight.value": "3",
+      "brand.name": "Primeal"
+    },
+    {
+      "identifier": "COFFEE",
+      "name": "Organic Coffee",
+      "description": "The coffee beans are gathers in Nepal by local folks by hand, a bean at a time. They are paid the decent price of 1$ a day.",
+      "image": "COFFEE.jpg"
+    },
+    {
+      "identifier": "CROQ",
+      "name": "Organic cat food palm oil free",
+      "description": "Cause even that sneaky animal need the best organic food.",
+      "image": "CROQ.jpg"
+    },
+    {
+      "identifier": "DONUT",
+      "name": "Organic gluten free donuts",
+      "description": "Gluten free donuts homemade from the day.",
+      "image": "DONUT.jpg"
+    },
+    {
+      "identifier": "SHIRT",
+      "name": "Organic Checkered shirt",
+      "description": "Checkered shirt made of organic cotton.",
+      "image": "SHIRT.jpg"
+    },
+    {
+      "identifier": "TOFU",
+      "name": "Organic Tofu",
+      "description": "Checkered shirt made of organic cotton.",
+      "image": "SHIRT.jpg"
+    }
+  ]
+}
